@@ -1,0 +1,69 @@
+/* reset du style à 0 */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* stylisation du corps de la page */
+body{
+  background-color: #242020;
+  height: 100vh;
+  color: white;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+}
+
+/* Positionnement de la zone de recherche */
+
+.tape{
+  position: absolute;
+  top: 0;
+}
+
+/* Stylisation de l'input */
+
+input{
+  margin-bottom: 30px;
+  background-color: rgb(246, 224, 227);
+  height: 20px;
+  width: 200px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+/* Stylisation du bloc d'affichage */
+
+.container{
+  border-radius: 8px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  background-color: #242020;
+  box-shadow: 5px 5px 10px #080707, -3px -3px 10px #434040;
+}
+
+/* suppression du style par défaut des listes */
+.container ul{
+  list-style: none;
+}
+
+/* Stylisastion du bouton */
+
+#buton{
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 70px;
+  border-radius: 15px;
+  color: white;
+  background-color: crimson;
+}
