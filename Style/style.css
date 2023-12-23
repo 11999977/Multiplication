@@ -32,6 +32,7 @@ body h1 span{
 .tape{
   position: absolute;
   top: 0;
+  padding-top:8px ;
 }
 
 /* Stylisation de l'input */
@@ -77,4 +78,15 @@ input{
   border-radius: 15px;
   color: white;
   background-color: crimson;
+}
+
+#arase{
+  width: 80px;
+  height: 25px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
